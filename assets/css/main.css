@@ -2251,6 +2251,38 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
+	#name-intro {
+		position: relative;
+		left: -100%; /* Start off-screen to the left */
+		animation: slideIn 2s ease forwards;
+	}
+	
+	@keyframes slideIn {
+		to {
+			left: 0; /* Slide in to the normal position */
+		}
+	}
+	
+	.sliding-text {
+		transition: transform 0.3s ease; /* Add a smooth transition on hover */
+	}
+	
+	.sliding-text:hover {
+		transform: translateX(10px); /* Apply a small horizontal translation on hover */
+	}
+	
+	#intro-p {
+		position: relative;
+		right: -100%;
+		animation: slideInP 2s ease forwards;
+	}
+
+	@keyframes slideInP {
+		to {
+			right: 0;
+		}
+	}
+
 /* One */
 
 	#one {
