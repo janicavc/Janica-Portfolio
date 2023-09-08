@@ -2260,6 +2260,11 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+	#janica-photo {
+		max-width: 200px;
+		max-height: 400px;
+	}
+
 /* Two */
 
 	#two {
@@ -2310,3 +2315,4 @@ input, select, textarea {
 			}
 
 		}
+		
