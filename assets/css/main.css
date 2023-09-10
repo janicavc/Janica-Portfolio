@@ -1444,13 +1444,19 @@ input, select, textarea {
 			width: 349px;
 			height: 218.91px;
 			position: relative;
-			opacity: 1.0
+			opacity: 1.0;
+			overflow: hidden;
+			border: 2px solid white;
 		}
+
 
 			.gallery article .image {
 				margin: 0;
 				display: block;
+				width: auto;
+				height: 218.91px;
 			}
+
 
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
