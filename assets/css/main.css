@@ -1450,6 +1450,12 @@ input, select, textarea {
 			border-radius: 5px;
 		}
 
+		@media (min-width: 768px) {
+			.gallery {
+				justify-content: center;
+			}
+		}
+
 		.gallery article:hover {
 			transform: scale(0.95); /* Increase the scale on hover */
 		}
