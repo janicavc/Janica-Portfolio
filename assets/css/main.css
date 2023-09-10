@@ -1446,7 +1446,12 @@ input, select, textarea {
 			position: relative;
 			opacity: 1.0;
 			overflow: hidden;
-			border: 2px solid white;
+			border: 2px solid whitesmoke;
+			border-radius: 5px;
+		}
+
+		.gallery article:hover {
+			transform: scale(0.95); /* Increase the scale on hover */
 		}
 
 
