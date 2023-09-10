@@ -1460,6 +1460,25 @@ input, select, textarea {
 			transform: scale(0.95); /* Increase the scale on hover */
 		}
 
+		.apps {
+			margin-bottom: 10px;
+		}
+
+		.app-links {
+			text-decoration: none; /* Remove underline on the links */
+			padding: 5px 5px; /* Add padding for better readability */
+			border: 2px solid #ccc; /* Add a border to the links */
+			border-radius: 5px; /* Add rounded corners */
+			transition: background-color 0.3s ease; /* Smooth transition for background color */
+			margin-bottom: 5px;
+			color: #39454b;
+		}
+		
+		.app-links:hover {
+			background-color: #f0f0f0; /* Change the background color on hover */
+		}
+		
+
 
 			.gallery article .image {
 				margin: 0;
