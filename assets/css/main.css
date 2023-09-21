@@ -1477,6 +1477,16 @@ input, select, textarea {
 		.app-links:hover {
 			background-color: #f0f0f0; /* Change the background color on hover */
 		}
+
+		@media screen and (max-width: 768px) {
+			.app-links {
+				display: block; /* Change links to block elements to stack them vertically */
+				margin-bottom: 10px; /* Add spacing between stacked links */
+			}
+			.app-links::after {
+				content: none;
+			}
+		}
 		
 
 
@@ -2319,6 +2329,25 @@ input, select, textarea {
 			right: 0;
 		}
 	}
+	
+		#janica-photo {
+			max-width: 100%;
+			max-height: 300px;
+			margin: 0;
+			border-radius: 10%;
+		}
+	
+		/* Add media queries for different screen sizes */
+		@media screen and (max-width: 768px) {
+			#one {
+				background-attachment: scroll, scroll; /* Remove fixed background attachment on smaller screens */
+			}
+	
+			#janica-photo {
+				max-width: 80%; /* Adjust the max-width as needed for smaller screens */
+				margin-right: 0; /* Remove margin for smaller screens */
+			}
+		}
 
 /* One */
 
@@ -2327,13 +2356,6 @@ input, select, textarea {
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-	}
-
-	#janica-photo {
-		max-width: 300px;
-		max-height: 500px;
-		float: left;
-    	margin-right: 130px;
 	}
 
 /* Two */
